@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Dungeon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>⚔ Pixel Dungeon</h1>
+    </header>
+
+    <div id="game-container">
+        <div id="loading">
+            <div class="spinner"></div>
+            <span>Loading dungeon…</span>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="hud">
+            <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move &nbsp;&nbsp;|&nbsp;&nbsp; <kbd>SPACE</kbd> attack
+            &nbsp;&nbsp;|&nbsp;&nbsp; <kbd>M</kbd> map view &nbsp;&nbsp;|&nbsp;&nbsp; <kbd>R</kbd> restart
+        </div>
+    </div>
+
+    <!-- Game Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/assets.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
